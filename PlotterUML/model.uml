@@ -5,4 +5,5 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Activity" xmi:id="_49oyIKFCEeaDpax8_1zRHw" name="Activity1"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_8XM5gKFDEeaDpax8_1zRHw" name="Class1"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pH7g4KFGEeaDpax8_1zRHw" name="Class2"/>
 </uml:Model>
