@@ -4,4 +4,5 @@
     <region xmi:type="uml:Region" xmi:id="_49V3MKFCEeaDpax8_1zRHw" name="Region1"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Activity" xmi:id="_49oyIKFCEeaDpax8_1zRHw" name="Activity1"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8XM5gKFDEeaDpax8_1zRHw" name="Class1"/>
 </uml:Model>
