@@ -6,7 +6,56 @@
   <packagedElement xmi:type="uml:Activity" xmi:id="_49oyIKFCEeaDpax8_1zRHw" name="Activity1"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_kWmMwKOfEea9orvMDxh0pQ" name="com">
     <packagedElement xmi:type="uml:Class" xmi:id="_pH7g4KFGEeaDpax8_1zRHw" name="Point3D"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_8XM5gKFDEeaDpax8_1zRHw" name="LineData"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8XM5gKFDEeaDpax8_1zRHw" name="LineData" visibility="public">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Qno8kKOkEea9orvMDxh0pQ" name="lineDatas" type="_U4QdMKOkEea9orvMDxh0pQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_W_iSwKOkEea9orvMDxh0pQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_W_w8QKOkEea9orvMDxh0pQ" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_afCfgKOkEea9orvMDxh0pQ" name="isSelected" type="_dmXc0KOkEea9orvMDxh0pQ"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_BifNQKOiEea9orvMDxh0pQ" client="_8XM5gKFDEeaDpax8_1zRHw" supplier="_YNYGQKOhEea9orvMDxh0pQ" contract="_YNYGQKOhEea9orvMDxh0pQ"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_t2rNIKOlEea9orvMDxh0pQ" name="LineData"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_vnhfsKOlEea9orvMDxh0pQ" name="LineData">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_zcnh8KOlEea9orvMDxh0pQ" name="i" type="_w39pUKOkEea9orvMDxh0pQ"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_1zBYoKOlEea9orvMDxh0pQ" name="j" type="_w39pUKOkEea9orvMDxh0pQ"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_3lKrsKOlEea9orvMDxh0pQ" name="k" type="_w39pUKOkEea9orvMDxh0pQ"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_5t4EoKOlEea9orvMDxh0pQ" name="l" type="_w39pUKOkEea9orvMDxh0pQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_iSwTcKOkEea9orvMDxh0pQ" name="size">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_yww-AKOkEea9orvMDxh0pQ" name="size" type="_w39pUKOkEea9orvMDxh0pQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_E3f54KOlEea9orvMDxh0pQ" name="addIndex">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_IFLW0KOlEea9orvMDxh0pQ" name="n" type="_w39pUKOkEea9orvMDxh0pQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Uz6TQKOlEea9orvMDxh0pQ" name="getIndex">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_X2bpEKOlEea9orvMDxh0pQ" name="n" type="_w39pUKOkEea9orvMDxh0pQ"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_bAlQ4KOlEea9orvMDxh0pQ" type="_U4QdMKOkEea9orvMDxh0pQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_lTH3sKOlEea9orvMDxh0pQ" name="toString">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ow93kKOlEea9orvMDxh0pQ" type="_IcUg8KOkEea9orvMDxh0pQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="__7UB0KOmEea9orvMDxh0pQ" name="isSelected">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="__7UB0aOmEea9orvMDxh0pQ" type="_dmXc0KOkEea9orvMDxh0pQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_efOQEKOnEea9orvMDxh0pQ" name="setSelected">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_efOQEaOnEea9orvMDxh0pQ" name="isSelected" type="_dmXc0KOkEea9orvMDxh0pQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_CJ6x8KOoEea9orvMDxh0pQ" name="clone">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_GtwJgKOoEea9orvMDxh0pQ" type="_8XM5gKFDEeaDpax8_1zRHw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_O3PZIKOoEea9orvMDxh0pQ" name="decomposeLineData">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Tl9LAKOoEea9orvMDxh0pQ" name="ld" type="_8XM5gKFDEeaDpax8_1zRHw"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_hNO5AKOoEea9orvMDxh0pQ" type="_IcUg8KOkEea9orvMDxh0pQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Y6hb8KOoEea9orvMDxh0pQ" name="positionOf">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_c6M9kKOoEea9orvMDxh0pQ" name="i" type="_w39pUKOkEea9orvMDxh0pQ"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_fEiuMKOoEea9orvMDxh0pQ" type="_w39pUKOkEea9orvMDxh0pQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_jA-HgKOoEea9orvMDxh0pQ" name="buildPolygon">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_l95LoKOoEea9orvMDxh0pQ" type="_UyNcYKOgEea9orvMDxh0pQ" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_nysKEKOoEea9orvMDxh0pQ" name="ld" type="_8XM5gKFDEeaDpax8_1zRHw"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_xsT6kKOoEea9orvMDxh0pQ" name="points" type="_pH7g4KFGEeaDpax8_1zRHw"/>
+      </ownedOperation>
+    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_3YdUIKOfEea9orvMDxh0pQ" name="com.main">
       <packagedElement xmi:type="uml:Class" xmi:id="_Y4Z1sKOgEea9orvMDxh0pQ" name="Colorpanel"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_Z9IpIKOgEea9orvMDxh0pQ" name="DigitTextField"/>
@@ -27,4 +76,9 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_VwGA8KOgEea9orvMDxh0pQ" name="Renderer3D"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_Wsh0AKOgEea9orvMDxh0pQ" name="ZBuffer"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_YNYGQKOhEea9orvMDxh0pQ" name="Cloneable"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_IcUg8KOkEea9orvMDxh0pQ" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_U4QdMKOkEea9orvMDxh0pQ" name="Integer"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_dmXc0KOkEea9orvMDxh0pQ" name="boolean"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_w39pUKOkEea9orvMDxh0pQ" name="int"/>
 </uml:Model>
