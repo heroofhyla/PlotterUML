@@ -4,6 +4,27 @@
     <region xmi:type="uml:Region" xmi:id="_49V3MKFCEeaDpax8_1zRHw" name="Region1"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Activity" xmi:id="_49oyIKFCEeaDpax8_1zRHw" name="Activity1"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_8XM5gKFDEeaDpax8_1zRHw" name="Class1"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_pH7g4KFGEeaDpax8_1zRHw" name="Class2"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_kWmMwKOfEea9orvMDxh0pQ" name="com">
+    <packagedElement xmi:type="uml:Class" xmi:id="_pH7g4KFGEeaDpax8_1zRHw" name="Point3D"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8XM5gKFDEeaDpax8_1zRHw" name="LineData"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_3YdUIKOfEea9orvMDxh0pQ" name="com.main">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Y4Z1sKOgEea9orvMDxh0pQ" name="Colorpanel"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Z9IpIKOgEea9orvMDxh0pQ" name="DigitTextField"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_br7tQKOgEea9orvMDxh0pQ" name="ExportDataPanel"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dHWiYKOgEea9orvMDxh0pQ" name="FunctionTextField"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_eG1CYKOgEea9orvMDxh0pQ" name="Integralpanel"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_e-_ZcKOgEea9orvMDxh0pQ" name="Main"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fjFlAKOgEea9orvMDxh0pQ" name="Visualizer"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_43PmUKOfEea9orvMDxh0pQ" name="com.maths">
+      <packagedElement xmi:type="uml:Class" xmi:id="_gVmAAKOgEea9orvMDxh0pQ" name="AdvancedCalculator"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hjunEKOgEea9orvMDxh0pQ" name="Calculator"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_iiTIIKOgEea9orvMDxh0pQ" name="MathTree"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_jh3HsKOgEea9orvMDxh0pQ" name="ParseFunction"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_nJq74KOgEea9orvMDxh0pQ" name="TNode"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UyNcYKOgEea9orvMDxh0pQ" name="Polygon3D"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VwGA8KOgEea9orvMDxh0pQ" name="Renderer3D"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Wsh0AKOgEea9orvMDxh0pQ" name="ZBuffer"/>
+  </packagedElement>
 </uml:Model>
